@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/Ryzen/Programs/C++/tetris-cli/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
