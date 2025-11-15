@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/tetris.dir/link.d CMakeFiles/tetris.dir/src/main.cpp.o CMakeFiles/tetris.dir/src/Board.cpp.o CMakeFiles/tetris.dir/src/Piece.cpp.o -o tetris
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/tetris.dir/link.d CMakeFiles/tetris.dir/src/main.cpp.o CMakeFiles/tetris.dir/src/Board.cpp.o CMakeFiles/tetris.dir/src/Piece.cpp.o CMakeFiles/tetris.dir/src/T_Piece.cpp.o -o tetris

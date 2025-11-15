@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/Ryzen/Programs/C++/tetris-cli/src/Board.cpp" "CMakeFiles/tetris.dir/src/Board.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/Board.cpp.o.d"
   "/home/Ryzen/Programs/C++/tetris-cli/src/Piece.cpp" "CMakeFiles/tetris.dir/src/Piece.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/Piece.cpp.o.d"
+  "/home/Ryzen/Programs/C++/tetris-cli/src/T_Piece.cpp" "CMakeFiles/tetris.dir/src/T_Piece.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/T_Piece.cpp.o.d"
   "/home/Ryzen/Programs/C++/tetris-cli/src/main.cpp" "CMakeFiles/tetris.dir/src/main.cpp.o" "gcc" "CMakeFiles/tetris.dir/src/main.cpp.o.d"
   "" "tetris" "gcc" "CMakeFiles/tetris.dir/link.d"
   )
