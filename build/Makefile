@@ -129,29 +129,53 @@ tetris/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/build
 .PHONY : tetris/fast
 
-src/board.o: src/board.cpp.o
-.PHONY : src/board.o
+src/Board.o: src/Board.cpp.o
+.PHONY : src/Board.o
 
 # target to build an object file
-src/board.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/board.cpp.o
-.PHONY : src/board.cpp.o
+src/Board.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Board.cpp.o
+.PHONY : src/Board.cpp.o
 
-src/board.i: src/board.cpp.i
-.PHONY : src/board.i
+src/Board.i: src/Board.cpp.i
+.PHONY : src/Board.i
 
 # target to preprocess a source file
-src/board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/board.cpp.i
-.PHONY : src/board.cpp.i
+src/Board.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Board.cpp.i
+.PHONY : src/Board.cpp.i
 
-src/board.s: src/board.cpp.s
-.PHONY : src/board.s
+src/Board.s: src/Board.cpp.s
+.PHONY : src/Board.s
 
 # target to generate assembly for a file
-src/board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/board.cpp.s
-.PHONY : src/board.cpp.s
+src/Board.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Board.cpp.s
+.PHONY : src/Board.cpp.s
+
+src/Piece.o: src/Piece.cpp.o
+.PHONY : src/Piece.o
+
+# target to build an object file
+src/Piece.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Piece.cpp.o
+.PHONY : src/Piece.cpp.o
+
+src/Piece.i: src/Piece.cpp.i
+.PHONY : src/Piece.i
+
+# target to preprocess a source file
+src/Piece.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Piece.cpp.i
+.PHONY : src/Piece.cpp.i
+
+src/Piece.s: src/Piece.cpp.s
+.PHONY : src/Piece.s
+
+# target to generate assembly for a file
+src/Piece.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/Piece.cpp.s
+.PHONY : src/Piece.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -177,30 +201,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/piece.o: src/piece.cpp.o
-.PHONY : src/piece.o
-
-# target to build an object file
-src/piece.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/piece.cpp.o
-.PHONY : src/piece.cpp.o
-
-src/piece.i: src/piece.cpp.i
-.PHONY : src/piece.i
-
-# target to preprocess a source file
-src/piece.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/piece.cpp.i
-.PHONY : src/piece.cpp.i
-
-src/piece.s: src/piece.cpp.s
-.PHONY : src/piece.s
-
-# target to generate assembly for a file
-src/piece.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tetris.dir/build.make CMakeFiles/tetris.dir/src/piece.cpp.s
-.PHONY : src/piece.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tetris"
-	@echo "... src/board.o"
-	@echo "... src/board.i"
-	@echo "... src/board.s"
+	@echo "... src/Board.o"
+	@echo "... src/Board.i"
+	@echo "... src/Board.s"
+	@echo "... src/Piece.o"
+	@echo "... src/Piece.i"
+	@echo "... src/Piece.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/piece.o"
-	@echo "... src/piece.i"
-	@echo "... src/piece.s"
 .PHONY : help
 
 

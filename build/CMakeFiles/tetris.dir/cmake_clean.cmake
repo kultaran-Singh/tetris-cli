@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tetris.dir/link.d"
-  "CMakeFiles/tetris.dir/src/board.cpp.o"
-  "CMakeFiles/tetris.dir/src/board.cpp.o.d"
+  "CMakeFiles/tetris.dir/src/Board.cpp.o"
+  "CMakeFiles/tetris.dir/src/Board.cpp.o.d"
+  "CMakeFiles/tetris.dir/src/Piece.cpp.o"
+  "CMakeFiles/tetris.dir/src/Piece.cpp.o.d"
   "CMakeFiles/tetris.dir/src/main.cpp.o"
   "CMakeFiles/tetris.dir/src/main.cpp.o.d"
-  "CMakeFiles/tetris.dir/src/piece.cpp.o"
-  "CMakeFiles/tetris.dir/src/piece.cpp.o.d"
   "tetris"
   "tetris.pdb"
 )

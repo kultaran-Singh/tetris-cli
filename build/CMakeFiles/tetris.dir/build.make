@@ -86,46 +86,46 @@ CMakeFiles/tetris.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Ryzen/Programs/C++/tetris-cli/src/main.cpp -o CMakeFiles/tetris.dir/src/main.cpp.s
 
-CMakeFiles/tetris.dir/src/board.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/board.cpp.o: /home/Ryzen/Programs/C++/tetris-cli/src/board.cpp
-CMakeFiles/tetris.dir/src/board.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Ryzen/Programs/C++/tetris-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/board.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/board.cpp.o -MF CMakeFiles/tetris.dir/src/board.cpp.o.d -o CMakeFiles/tetris.dir/src/board.cpp.o -c /home/Ryzen/Programs/C++/tetris-cli/src/board.cpp
+CMakeFiles/tetris.dir/src/Board.cpp.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/Board.cpp.o: /home/Ryzen/Programs/C++/tetris-cli/src/Board.cpp
+CMakeFiles/tetris.dir/src/Board.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Ryzen/Programs/C++/tetris-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tetris.dir/src/Board.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/Board.cpp.o -MF CMakeFiles/tetris.dir/src/Board.cpp.o.d -o CMakeFiles/tetris.dir/src/Board.cpp.o -c /home/Ryzen/Programs/C++/tetris-cli/src/Board.cpp
 
-CMakeFiles/tetris.dir/src/board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/board.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Ryzen/Programs/C++/tetris-cli/src/board.cpp > CMakeFiles/tetris.dir/src/board.cpp.i
+CMakeFiles/tetris.dir/src/Board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/Board.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Ryzen/Programs/C++/tetris-cli/src/Board.cpp > CMakeFiles/tetris.dir/src/Board.cpp.i
 
-CMakeFiles/tetris.dir/src/board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/board.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Ryzen/Programs/C++/tetris-cli/src/board.cpp -o CMakeFiles/tetris.dir/src/board.cpp.s
+CMakeFiles/tetris.dir/src/Board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/Board.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Ryzen/Programs/C++/tetris-cli/src/Board.cpp -o CMakeFiles/tetris.dir/src/Board.cpp.s
 
-CMakeFiles/tetris.dir/src/piece.cpp.o: CMakeFiles/tetris.dir/flags.make
-CMakeFiles/tetris.dir/src/piece.cpp.o: /home/Ryzen/Programs/C++/tetris-cli/src/piece.cpp
-CMakeFiles/tetris.dir/src/piece.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Ryzen/Programs/C++/tetris-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/src/piece.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/piece.cpp.o -MF CMakeFiles/tetris.dir/src/piece.cpp.o.d -o CMakeFiles/tetris.dir/src/piece.cpp.o -c /home/Ryzen/Programs/C++/tetris-cli/src/piece.cpp
+CMakeFiles/tetris.dir/src/Piece.cpp.o: CMakeFiles/tetris.dir/flags.make
+CMakeFiles/tetris.dir/src/Piece.cpp.o: /home/Ryzen/Programs/C++/tetris-cli/src/Piece.cpp
+CMakeFiles/tetris.dir/src/Piece.cpp.o: CMakeFiles/tetris.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/Ryzen/Programs/C++/tetris-cli/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/src/Piece.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tetris.dir/src/Piece.cpp.o -MF CMakeFiles/tetris.dir/src/Piece.cpp.o.d -o CMakeFiles/tetris.dir/src/Piece.cpp.o -c /home/Ryzen/Programs/C++/tetris-cli/src/Piece.cpp
 
-CMakeFiles/tetris.dir/src/piece.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/piece.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Ryzen/Programs/C++/tetris-cli/src/piece.cpp > CMakeFiles/tetris.dir/src/piece.cpp.i
+CMakeFiles/tetris.dir/src/Piece.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tetris.dir/src/Piece.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Ryzen/Programs/C++/tetris-cli/src/Piece.cpp > CMakeFiles/tetris.dir/src/Piece.cpp.i
 
-CMakeFiles/tetris.dir/src/piece.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/piece.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Ryzen/Programs/C++/tetris-cli/src/piece.cpp -o CMakeFiles/tetris.dir/src/piece.cpp.s
+CMakeFiles/tetris.dir/src/Piece.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/src/Piece.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Ryzen/Programs/C++/tetris-cli/src/Piece.cpp -o CMakeFiles/tetris.dir/src/Piece.cpp.s
 
 # Object files for target tetris
 tetris_OBJECTS = \
 "CMakeFiles/tetris.dir/src/main.cpp.o" \
-"CMakeFiles/tetris.dir/src/board.cpp.o" \
-"CMakeFiles/tetris.dir/src/piece.cpp.o"
+"CMakeFiles/tetris.dir/src/Board.cpp.o" \
+"CMakeFiles/tetris.dir/src/Piece.cpp.o"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
 tetris: CMakeFiles/tetris.dir/src/main.cpp.o
-tetris: CMakeFiles/tetris.dir/src/board.cpp.o
-tetris: CMakeFiles/tetris.dir/src/piece.cpp.o
+tetris: CMakeFiles/tetris.dir/src/Board.cpp.o
+tetris: CMakeFiles/tetris.dir/src/Piece.cpp.o
 tetris: CMakeFiles/tetris.dir/build.make
 tetris: CMakeFiles/tetris.dir/compiler_depend.ts
 tetris: CMakeFiles/tetris.dir/link.txt
