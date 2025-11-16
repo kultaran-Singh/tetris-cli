@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(Tetris LANGUAGES CXX)
-add_executable(tetris src/main.cpp src/board.cpp src/piece.cpp)
+add_executable(tetris src/main.cpp src/Board.cpp src/Piece.cpp src/T_Piece.cpp)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
