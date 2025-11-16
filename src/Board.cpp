@@ -48,6 +48,32 @@ bool Board::is_collision(std::array<std::array<int, 4>, 4> shape, int future_x, 
     return false;
 }
 
+void Board::settle_piece(std::array<std::array<int, 4>, 4> shape, int current_x, int future_y){
+    /*This function will settle a piece whenever moving downwards triggers a collision, which means,
+    It will call is_collision(shape, pos_x, pos_y + 1) to check for collision and then settle the piece.
+    It will stamp the piece on the grid.*/
+    //Checking collision
+    if(Board::is_collision(shape, current_x, future_y)){
+        //Move the curren piece pointer away
+        //Edit the grid and stamp the piece on it.
+        auto i = 0;
+        auto board_x = 0;
+        auto board_y = 0; 
+        for(auto row : shape){
+            auto j = 0;
+            for(auto cell : row){
+                if(cell != 0){
+                    board_x = current_x + j;
+                    board_y = future_y + i;
+                    grid[board_x][board_y] = cell;
+                }
+                ++j;
+            }
+            ++i;
+        }
+    }
+}
+
 Board::Board(){
     for(auto& row : grid){
         for(auto& cell : row){
